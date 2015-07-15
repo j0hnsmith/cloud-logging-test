@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /bin/sh -c "while true; do logger hello world; sleep 1; done;"
