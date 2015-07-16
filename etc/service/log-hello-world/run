@@ -1,3 +1,4 @@
 #!/bin/sh
 
+# don't remove the exec, runit won't be able to monitor the process without it
 exec /bin/sh -c "while true; do logger hello world; sleep 1; done;"

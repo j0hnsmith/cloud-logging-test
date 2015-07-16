@@ -22,7 +22,7 @@ Docker Machine, Docker Compose, accounts with each provider (with any necessary 
 
 To remove container when finished `docker-compose kill; docker-compose rm --force`
 
-To change the message edit `etc/service/log-hello-world/run` (the `exec` is important, don't remove it). Each provider has it's own template, to edit/set tags etc edit `custom.conf`.
+Edit `etc/service/log-hello-world/run` to change the message . Each provider has it's own template, to edit/set tags etc edit `custom.conf`.
 
 ## Contributions
 Are very welcome. To add a provider, improve the configuration somehow or any other change, please send a pull request.
