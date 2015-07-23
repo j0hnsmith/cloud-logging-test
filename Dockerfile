@@ -13,7 +13,7 @@ ADD https://certs.secureserver.net/repository/sf_bundle.crt /tmp/sf_bundle.crt
 RUN cat /tmp/sf_bundle.crt /tmp/loggly.com.crt > /etc/syslog-ng/cert.d/loggly_full.crt
 
 # logentries certificate
-ADD https://d2rqpywgspga97.cloudfront.net/mstatic/1436926766/includes/certificates/logentries.all.crt /etc/syslog-ng/cert.d/
+#ADD https://d2rqpywgspga97.cloudfront.net/mstatic/1436926766/includes/certificates/logentries.all.crt /etc/syslog-ng/cert.d/
 
 COPY custom.conf /etc/syslog-ng/conf.d/
 
